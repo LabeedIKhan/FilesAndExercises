@@ -18,11 +18,11 @@ type Data struct{
 }
 
 type Profile struct {
-	Symbol  	    string	  `json:"Symbol"`
+	Symbol  	string	  `json:"Symbol"`
 	CompanyName     string	  `json:"Name"`
-	Industry	    string	  `json:"Industry"`
-	Sector   		string    `Json:"Sector"`
-	Price    		string    `json:"Price"`
+	Industry        string	  `json:"Industry"`
+	Sector   	string    `Json:"Sector"`
+	Price    	string    `json:"Price"`
 	MktCap          string    `json:"MKtCap"`
 	PeRatio         string    `json:"PeRatio"`
 	Description     string    `json:"Description"`
