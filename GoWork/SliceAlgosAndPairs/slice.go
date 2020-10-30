@@ -36,7 +36,7 @@ func RunPair(){
 
 }
 
-func MyListIterator(list* []string){
+func Example1(list* []string){
 
 	fmt.Println("\nUsing My List Iterator")
 	for _,val := range *list{
@@ -44,7 +44,7 @@ func MyListIterator(list* []string){
 	}
 }
 
-func MyEnhancedForLoop(list * []string){
+func Example2(list * []string){
 
 	fmt.Println("\nThis is from my Enhanced Loop")
 	
@@ -64,7 +64,7 @@ func MyEnhancedForLoop(list * []string){
 	}
 }
 
-func MyWhileLoop(list * []string){
+func Example3(list * []string){
 
 	fmt.Println("\nThis is from my while loop")
 	torem := "Camera Obscura and World of Illusions"
@@ -101,9 +101,9 @@ func main(){
 		fmt.Println(i, v)
 	}
 
-	MyListIterator(&list)
-	MyEnhancedForLoop(&list)
-	MyWhileLoop(&list)
+	Example1(&list)
+	Example2(&list)
+	Example3(&list)
 	RunPair()
 
 }
